@@ -18,9 +18,9 @@ const Pages = () => {
     <>
     <Header />
     <HomeTwoBannerSec />
+    <GreenBrandLogosSec />
     <HomeTwoWhatSetsUsApart />
     <HomeTwoAboutNexoraDigitalagency />
-    <GreenBrandLogosSec />
     <OurExpertise />
     <NexoraBlogHub />
     <TestimonialsSec /> 

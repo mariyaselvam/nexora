@@ -40,7 +40,7 @@ const Footer = () => {
                 <h6 className="home-one-usefull-links-tit">Useful Links</h6>
                 <Link to="/">Home 1</Link>
                 <Link to="/pages">Home 2</Link>
-                <Link to="/about">about</Link>
+                <Link to="/about">About</Link>
                 <Link to="/services">Services</Link>
                 <Link to="/contact-us">Contact Us</Link>
               </div>

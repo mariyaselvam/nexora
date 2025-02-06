@@ -88,8 +88,8 @@ const Header = () => {
                       alt=""
                     />
                     <div className="homes-links-dropdown">
-                      <Link to="/blog-listing">Blog Listing</Link>
-                      <Link to="/blog-detail">Blog Detail</Link>
+                      <Link to="/blog-listing">Blog Posts</Link>
+                      <Link to="/blog-detail">Blog Details</Link>
                     </div>
                   </Link>
                   <Link
@@ -183,7 +183,7 @@ const Header = () => {
                     }
                     to="/blog-listing"
                   >
-                    Blog Listing
+                    Blog Posts
                   </Link>
                   <Link
                     className={
@@ -194,7 +194,7 @@ const Header = () => {
                     }
                     to="/blog-detail"
                   >
-                    Blog Detail
+                    Blog Details
                   </Link>
                 </Accordion.Body>
               </Accordion.Item>

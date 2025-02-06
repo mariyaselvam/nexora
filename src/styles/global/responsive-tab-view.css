@@ -70,8 +70,26 @@
 
 @media (max-width:1800px) {
 
-    .Home-two-What-Sets-Us-Apart-sec {
-        margin-top: 640px;
+    .Similar-Blogs-might-like-card{
+        padding: 20px;
+    }
+
+    .Similar-Blogs-might-like-mini-tit{
+        padding: 7px 26px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .Similar-Blogs-might-like-main-tit{
+        margin-bottom: 10px;
+    }
+
+    .Similar-Blogs-might-like-card > p{
+        margin-bottom: 20px;
+    }
+
+    .green-brand-logo-sec {
+        margin-top: 700px;
     }
 
     .Our-Culture-Empowering-Excellence-sec .row>* {
@@ -284,6 +302,14 @@
 
 @media (max-width:1200px) {
 
+    .green-brand-logo-sec{
+            margin-top: 660px;
+    }
+
+    .home-two-banner-sec{
+        padding: 210px 0px 100px;
+    }
+
     .Home-Two-About-Nexora-Digitalagency-main-img{
         padding-bottom: 30px;
     }
@@ -407,6 +433,10 @@
     }
 }
 
+@media (max-width:1200px) {
+
+}
+
 @media (max-width:1000px) {
 
     .Our-Range-of-Expertise-card{
@@ -421,8 +451,8 @@
         padding: 200px 0px 100px;
     }
 
-    .Home-two-What-Sets-Us-Apart-sec {
-        margin-top: 700px;
+    .green-brand-logo-sec {
+        margin-top: 730px;
     }
 
     .Home-one-about-us-sec,
@@ -529,6 +559,14 @@
 
 @media (max-width:767px) {
 
+    .Similar-Blogs-might-like-mini-tit{
+        margin-bottom: 20px;
+    }
+
+    .green-brand-logo-sec{
+        margin-top: 700px;
+    }
+
     .home-one-usefull-links-wrap,
     .home-one-company-links-wrap,
     .home-one-Get-In-Touch-links-wrap {
@@ -589,6 +627,15 @@
 
 @media (max-width:600px) {
 
+    .testimonial-card-top{
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .testimonial-card-profile-detail > h4{
+        font-size: 12px;
+    }
+
     .text-link-span{
         height: 30px;
     }
@@ -609,8 +656,8 @@
         padding: 0px 0px 30px;
     }
 
-    .Home-two-What-Sets-Us-Apart-sec{
-        margin-top: 540px;
+    .green-brand-logo-sec{
+        margin-top: 560px;
     }
 
     .home-two-banner-sec{
@@ -1166,7 +1213,8 @@
     }
 
     .green-brand-logo-sec {
-        margin: 30px auto;
+        margin-top: 470px;
+        /* margin: 30px auto; */
     }
 
     .brand-logo-sec {
@@ -1312,6 +1360,14 @@
 }
 
 @media (max-width:480px) {
+    .Home-two-What-Sets-Us-Apart-sec{
+        /* margin-top: ; */
+    }
+
+    .green-brand-logo-sec{
+        margin-top: 510px;
+    }
+
     .footer-main-tit-bottom{
         font-size: 60px;
     }
@@ -1323,11 +1379,27 @@
     }
 }
 
+@media (max-width:400px) {
+    .green-brand-logo-sec{
+        margin-top: 580px;
+    }
+}
+
+@media (max-width:365px) {
+    .home-one-about-main-tit>span{
+        height: 40px;
+    }
+}
+
 @media (max-width:350px) {
     .footer-main-tit-bottom{
         font-size: 50px;
     }
     .Home-two-What-Sets-Us-Apart-sec{
+        /* margin-top: 660px; */
+    }
+
+    .green-brand-logo-sec{
         margin-top: 600px;
     }
 }
