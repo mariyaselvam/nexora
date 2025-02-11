@@ -48,8 +48,8 @@ const Footer = () => {
             <div className="col-md-2">
               <div className="home-one-company-links-wrap">
                 <h6 className="home-one-company-links-tit">Company</h6>
-                <Link to="/blog-listing">Blog Listing</Link>
-                <Link to="/blog-detail">Blog Detail</Link>
+                <Link to="/blog-listing">Blog Posts</Link>
+                <Link to="/blog-detail">Blog Details</Link>
                 <Link to="/404">Error</Link>
                 {/* <Link to="#">Support</Link> */}
               </div>

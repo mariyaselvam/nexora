@@ -70,6 +70,73 @@
 
 @media (max-width:1800px) {
 
+    h1{
+        font-family: "Outfit";
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 80px;
+    }
+    
+    h2{
+        font-family: "Outfit";
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 70px;
+    }
+    
+    h3{
+        font-family: "Outfit";
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 46px;
+    }
+    
+    h4{
+        font-family: "Outfit";
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 38px;
+    }
+    
+    h5{
+        font-family: "Outfit";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    
+    h6{
+        font-family: "Outfit";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .Home-one-about-us-sec,
+    .home-one-who-we-are-sec,
+    .Home-one-Our-Expertise-sec,
+    .Home-One-Nexora-Blog-Hub-sec,
+    .home-one-testimonials-sec,
+    .home-one-faq-sec,
+    .Home-two-What-Sets-Us-Apart-sec,
+    .Home-Two-About-Nexora-Digitalagency-sec,
+    .About-Our-Story-sec,
+    .About-Us-Our-Mission-Values-sec,
+    .about-us-page-banner-sec,
+    .Awesome-Team-Members-sec,
+    .Our-Culture-Empowering-Excellence-sec,
+    .Explore-Exciting-Opportunities-sec,
+    .Lets-Make-It-Happen-sec,
+    .Services-Page-Banner-sec,
+    .Our-Range-of-Expertise-sec,
+    .Our-Services-Overview-sec,
+    .blog-page-banner-sec,
+    .blog-page-Review-Carousel-sec,
+    .contact-us-Get-in-Touch-with-Us-sec,
+    .Similar-Blogs-might-like-sec {
+        padding: 50px 0px;
+    }
+
     .Similar-Blogs-might-like-card{
         padding: 20px;
     }
@@ -201,6 +268,15 @@
 
 @media (max-width:1400px) {
 
+    .Blog-Detail-Content-main-tit{
+        margin-bottom: 20px;
+    }
+
+    .blog-detail-border-top{
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+
     .Home-Two-About-Nexora-Digitalagency-main-img{
         height: 100%;
         border-radius: 20px;
@@ -298,6 +374,31 @@
         padding: 20px;
     }
 
+    .Home-one-about-us-sec,
+    .home-one-who-we-are-sec,
+    .Home-one-Our-Expertise-sec,
+    .Home-One-Nexora-Blog-Hub-sec,
+    .home-one-testimonials-sec,
+    .home-one-faq-sec,
+    .Home-two-What-Sets-Us-Apart-sec,
+    .Home-Two-About-Nexora-Digitalagency-sec,
+    .About-Our-Story-sec,
+    .About-Us-Our-Mission-Values-sec,
+    .about-us-page-banner-sec,
+    .Awesome-Team-Members-sec,
+    .Our-Culture-Empowering-Excellence-sec,
+    .Explore-Exciting-Opportunities-sec,
+    .Lets-Make-It-Happen-sec,
+    .Services-Page-Banner-sec,
+    .Our-Range-of-Expertise-sec,
+    .Our-Services-Overview-sec,
+    .blog-page-banner-sec,
+    .blog-page-Review-Carousel-sec,
+    .contact-us-Get-in-Touch-with-Us-sec,
+    .Similar-Blogs-might-like-sec {
+        padding: 50px 0px;
+    }
+
 }
 
 @media (max-width:1200px) {
@@ -339,8 +440,9 @@
     .Our-Services-Overview-sec,
     .blog-page-banner-sec,
     .blog-page-Review-Carousel-sec,
-    .contact-us-Get-in-Touch-with-Us-sec {
-        padding: 50px 0px;
+    .contact-us-Get-in-Touch-with-Us-sec,
+    .Similar-Blogs-might-like-sec {
+        padding: 40px 0px;
     }
 
     .mobile-tab-view-nav-options a {
@@ -431,6 +533,32 @@
     .brand-Logo-ul-list {
         width: 300%;
     }
+
+    .Blog-Detail-Content-wraper-nd-img{
+        padding: 20px;
+        border: 1px solid var(--border);
+        margin-bottom: 30px;
+    }
+
+    .Our-Range-of-Expertise-card{
+        padding: 20px;
+    }
+
+    .Our-Range-of-Expertise-card p{
+        line-clamp: 3;
+    }
+
+    .blog-detail-auther-card-wraper{
+        padding: 0px;
+    }
+
+    .blog-detail-auther-card{
+        border: none;
+    }
+
+    .Blog-Detail-Content-Sec{
+        padding: 0px 0px 30px;
+    }
 }
 
 @media (max-width:1200px) {
@@ -438,6 +566,29 @@
 }
 
 @media (max-width:1000px) {
+
+
+
+    .About-Us-Our-Mission-Values-card{
+        padding: 20px;
+    }
+
+    .who-we-are-main-img{
+        margin: 6rem auto;
+    }
+
+    .blog-page-Review-Carousel-card{
+        padding: 20px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+
+    .Similar-Blogs-might-like-tit-wraper h3{
+        margin-bottom: 30px;
+    }
 
     .Our-Range-of-Expertise-card{
         margin-bottom: 30px;
@@ -475,7 +626,8 @@
     .Our-Services-Overview-sec,
     .blog-page-banner-sec,
     .blog-page-Review-Carousel-sec,
-    .contact-us-Get-in-Touch-with-Us-sec {
+    .contact-us-Get-in-Touch-with-Us-sec ,
+    .Similar-Blogs-might-like-sec {
         padding: 40px 0px;
     }
 
@@ -559,6 +711,10 @@
 
 @media (max-width:767px) {
 
+    .testimonial-card-profile-detail > h4{
+        font-size: 14px;
+    }
+
     .Similar-Blogs-might-like-mini-tit{
         margin-bottom: 20px;
     }
@@ -626,6 +782,16 @@
 }
 
 @media (max-width:600px) {
+
+    .Awesome-Team-Members-card-cont-wrap span{
+        font-size: 13px;
+    }
+
+    .Awesome-Team-Members-card-cont-wrap img{
+        right: 20px;
+        width: 20px;
+        height: 20px;
+    }
 
     .testimonial-card-top{
         margin-bottom: 20px;
@@ -1360,6 +1526,13 @@
 }
 
 @media (max-width:480px) {
+
+
+
+    .Awesome-Team-Members-card-cont-wrap{
+        padding: 10px 20px;
+    }
+
     .Home-two-What-Sets-Us-Apart-sec{
         /* margin-top: ; */
     }
@@ -1380,6 +1553,21 @@
 }
 
 @media (max-width:400px) {
+    .Services-Page-Banner-imgs-inner-card p{
+        font-size: 14px;
+        margin-bottom: 0px;
+        line-height: 20px;
+    }
+
+    .Services-Page-Banner-imgs-inner-card-num{
+        line-height: auto;
+        margin-bottom: 5px;
+    }
+
+    .Services-Page-Banner-imgs-inner-card{
+        background-size: 20px 20px;
+    }
+    
     .green-brand-logo-sec{
         margin-top: 580px;
     }
